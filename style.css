@@ -1,0 +1,53 @@
+.userSelect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 200px;
+    margin: auto 0px ;
+}
+button{
+    width: 64px;
+    height: 32px;
+}
+#field{
+    display: inline-grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2, 2fr);
+    border: 5px solid white;
+    border-radius: 5px;
+    height: 600px;
+    width: 600px;
+    background-color: gray;
+    
+}
+.new{
+    background-color: white;
+    border: 1px solid black;
+}
+        
+
+.game{
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+html,body{
+    height: 99%;
+}
+
+.field{
+    margin-top: 50px;
+    display: inline-grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    border: 5px solid white;
+    border-radius: 5px;
+    height: 575px;
+    width: 575px;
+    background-color: gray;
+    box-shadow: 10px 10px;
+}
+
